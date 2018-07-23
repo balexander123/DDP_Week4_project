@@ -9,7 +9,7 @@ output: slidy_presentation
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Page 1 - introduction
+## introduction
 
 Welcome everyone who loves interactive data and especially, to you weather geeks out there!
 
@@ -17,19 +17,19 @@ Welcome everyone who loves interactive data and especially, to you weather geeks
 ![](https://media.giphy.com/media/mbJHOpITes55m/giphy.gif)
 </center>
 
-## Page 2 - the problem
+## the problem
 
 How many times have you seen an awesome chart or graph and wanted to adjust or manipulate the view?
 
 ![](https://media.giphy.com/media/yob2BpR9R3ccg/giphy.gif)
 
-## Page 3 - the problem illustrated
+## the problem illustrated
 
 <img src="static_scatter_graph.png" alt="Static scatter plot" width="500px"/>
 
 Wouldn't it be great if you could zoom in?  Filter and select which data to view?
 
-## Page 4 - the solution
+## the solution
 
 ```{r load-clean-graph, echo=FALSE, message=FALSE, warning=FALSE}
 
@@ -112,7 +112,7 @@ plot_ly(allDamage, x = ~sumHumanDirectFatalities, y = ~sumHumanDirectInjuries, z
 ```
 Well, now's your chance!  Go on, click it, twirl it, rotate...Go crazy!
 
-## Page 5 - summary/refs/links
+## summary/refs/links
 
 Now that you've had a small taste, head on over to the [complete app](https://balexander123.shinyapps.io/DDP_Week4_project/) in all its amazing glory!
 
